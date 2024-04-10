@@ -28,10 +28,20 @@ main {
 	background-color: rgb(219, 245, 255);
 	padding: 2rem;
 	border-radius: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 main p {
 	font-size: 1.15rem;
 	margin-bottom: 2rem;
 	line-height: 2;
+}
+
+img {
+	width: 500px;
+	height: auto;
+	margin: 0 auto;
+	border-radius: 10px;
 }
